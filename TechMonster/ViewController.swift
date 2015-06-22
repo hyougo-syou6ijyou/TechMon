@@ -95,6 +95,7 @@ class ViewController: UIViewController {
         TechDraUtility.vanishAnimation(vanishImageView)
         util.stopBGM()
         timer.invalidate()
+        enemytimer.invalidate()
         
         var finishedMessage: String!
         
