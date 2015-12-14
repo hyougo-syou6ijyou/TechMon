@@ -45,6 +45,7 @@ class LobbyViewController: UIViewController,AVAudioPlayerDelegate{
     }
     
     override func viewWillDisappear(animated: Bool) {
+        super.viewDidDisappear(true)
         util.stopBGM()
     }
     

@@ -15,6 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        var storyboard: UIStoryboard = self.grabStoryboard()
+        
+        if let window = window {
+            window.rootViewController =
+            storyboard.instantiateInitialViewController() as? UIViewController
+        }
+        self.window?.makeKeyAndVisible()
         // Override point for customization after application launch.
         return true
     }
@@ -39,6 +46,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    func grabStoryboard() -> UIStoryboard {
+    var storyboard = UIStoryboard()
+    var height = UIScreen.mainScreen().bounds.size.height
+    if height == 480 {
+    storyboard = UIStoryboard(name: "main35", bundle: nil)
+    }else {
+        storyboard = UIStoryboard(name: "Main", bundle: nil)
+    }
+    return storyboard
     }
 
 

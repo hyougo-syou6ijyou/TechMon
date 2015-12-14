@@ -13,41 +13,41 @@
                         <viewControllerLayoutGuide type="bottom" id="6mY-kO-EhQ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="MYX-An-21P">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgimage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5j0-x8-tgN">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lobby.png" translatesAutoresizingMaskIntoConstraints="NO" id="LmM-K9-wje">
-                                <rect key="frame" x="0.0" y="47" width="320" height="311"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="252"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="falcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="j0G-Zf-cu0">
-                                <rect key="frame" x="84" y="134" width="153" height="120"/>
+                                <rect key="frame" x="84" y="86" width="153" height="120"/>
                             </imageView>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="lhc-iI-sEG">
-                                <rect key="frame" x="39" y="305" width="243" height="2"/>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.50000000000000011" translatesAutoresizingMaskIntoConstraints="NO" id="lhc-iI-sEG">
+                                <rect key="frame" x="38" y="228" width="245" height="2"/>
                             </progressView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n2R-gz-NjX">
-                                <rect key="frame" x="39" y="73" width="98" height="21"/>
+                                <rect key="frame" x="39" y="57" width="98" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="level" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lGl-PY-HWe">
-                                <rect key="frame" x="240" y="73" width="42" height="21"/>
+                                <rect key="frame" x="240" y="57" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="スタミナ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3q7-fb-18g">
-                                <rect key="frame" x="39" y="273" width="69" height="21"/>
+                                <rect key="frame" x="38" y="199" width="69" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35k-Mb-WVm">
-                                <rect key="frame" x="178" y="405" width="126" height="76"/>
+                                <rect key="frame" x="39" y="384" width="243" height="76"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="ガチャを引く" backgroundImage="gold_button.png">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -58,7 +58,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCu-hi-54y">
-                                <rect key="frame" x="16" y="405" width="126" height="75"/>
+                                <rect key="frame" x="39" y="285" width="243" height="75"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                 <state key="normal" title="冒険に行く" backgroundImage="gold_button.png">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -70,6 +70,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="levellabel" destination="lGl-PY-HWe" id="R7T-wc-O5j"/>
                         <outlet property="namelabel" destination="n2R-gz-NjX" id="oiz-Uf-Bx8"/>
@@ -89,49 +90,49 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgimage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="83y-PQ-gff">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="battlebg.png" translatesAutoresizingMaskIntoConstraints="NO" id="hsk-TV-5yY">
-                                <rect key="frame" x="0.0" y="53" width="320" height="324"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="296"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TAB-3c-LNm">
-                                <rect key="frame" x="41" y="438" width="243" height="75"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
-                                <state key="normal" title="こうげき" backgroundImage="gold_button.png">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="playerAttack" destination="vXZ-lx-hvc" eventType="touchUpInside" id="GVc-yh-hgq"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wE1-gs-UVJ">
-                                <rect key="frame" x="199" y="61" width="107" height="108"/>
+                                <rect key="frame" x="197" y="41" width="107" height="108"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hXo-eN-nzR">
-                                <rect key="frame" x="18" y="257" width="115" height="109"/>
+                                <rect key="frame" x="16" y="185" width="115" height="109"/>
                             </imageView>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="sBf-a2-EFE">
-                                <rect key="frame" x="162" y="337" width="150" height="2"/>
+                                <rect key="frame" x="162" y="286" width="150" height="2"/>
                             </progressView>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="vsC-F9-8GF">
-                                <rect key="frame" x="21" y="138" width="150" height="2"/>
+                                <rect key="frame" x="21" y="112" width="150" height="2"/>
                             </progressView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JmZ-ru-JYz">
-                                <rect key="frame" x="162" y="313" width="42" height="21"/>
+                                <rect key="frame" x="162" y="265" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8no-W5-CCo">
-                                <rect key="frame" x="21" y="114" width="42" height="21"/>
+                                <rect key="frame" x="21" y="93" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TAB-3c-LNm">
+                                <rect key="frame" x="39" y="354" width="243" height="75"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <state key="normal" title="こうげき" backgroundImage="gold_button.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playerAttack" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fHW-6R-hQi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -160,17 +161,17 @@
                         <viewControllerLayoutGuide type="bottom" id="VaZ-x5-XeH"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="YsK-N6-6O1">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgimage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jf5-Mv-Emy">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gacha.png" translatesAutoresizingMaskIntoConstraints="NO" id="X1N-Gg-xBU">
-                                <rect key="frame" x="40" y="57" width="240" height="454"/>
+                                <rect key="frame" x="40" y="0.0" width="240" height="454"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VqY-gu-f7b">
-                                <rect key="frame" x="117" y="300" width="86" height="86"/>
+                                <rect key="frame" x="117" y="243" width="86" height="86"/>
                                 <state key="normal" title="引く">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -179,12 +180,13 @@
                                     <segue destination="5NP-ne-a3N" kind="modal" id="HdV-OJ-Wsp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yDG-Je-rEj">
-                                <rect key="frame" x="91" y="445" width="195" height="52"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="終了"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7mt-p1-JJY">
+                                <rect key="frame" x="158" y="403" width="94" height="30"/>
+                                <state key="normal" title="終了">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
-                                    <action selector="back" destination="XI0-MX-5d2" eventType="touchUpInside" id="got-Yf-UNU"/>
+                                    <action selector="back" destination="XI0-MX-5d2" eventType="touchUpInside" id="cjv-v7-13R"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -205,22 +207,22 @@
                         <viewControllerLayoutGuide type="bottom" id="DcV-Vy-9EK"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="5yI-up-cUh">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="s1n-XO-saQ">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="-44" width="320" height="568"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6DD-sA-ceV">
-                                <rect key="frame" x="40" y="136" width="240" height="295"/>
+                                <rect key="frame" x="40" y="92" width="240" height="295"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xwF-mR-751">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uK1-u5-ab4">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="back" destination="5NP-ne-a3N" eventType="touchUpInside" id="zYi-bT-Pi7"/>
+                                    <action selector="back" destination="5NP-ne-a3N" eventType="touchUpInside" id="E60-Iy-agZ"/>
                                 </connections>
                             </button>
                         </subviews>
